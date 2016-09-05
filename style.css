@@ -225,3 +225,14 @@ p.hd
 img{
 	max-width: 640px;
 }
+h.h-title
+{
+	padding-left: 50px;
+    	padding-top: 20px;
+    	padding-bottom: 20px;
+    	background: url(img/title.png) no-repeat 0;
+    	background-size: 40px;
+    	color: #ca7010;
+    	line-height: 2em;
+    	font-size: 25px;
+}
