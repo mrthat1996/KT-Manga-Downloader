@@ -213,5 +213,9 @@ p
 }
 p.hd
 {
-	margin-left: 30px;	
-}
+	p.hd {
+    	margin-left: 10px;
+    	background: url(img/star.png);
+    	color: #ca7010;
+    	font-size: 20px;
+}	
