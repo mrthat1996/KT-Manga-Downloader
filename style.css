@@ -209,12 +209,16 @@ body
 }
 p
 {
-	margin-left: 30px;	
+	margin-left: 60px;
+    	line-height: normal;
 }
 p.hd
 {
     	margin-left: 10px;
-    	background: url(img/star.png);
+    	padding-left: 50px;
+    	background: url(img/star.png) no-repeat 0;
+    	background-size: 40px;
     	color: #ca7010;
     	font-size: 20px;
+    	line-height: 2em;
 }	
