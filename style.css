@@ -222,3 +222,6 @@ p.hd
     	font-size: 20px;
     	line-height: 2em;
 }	
+img{
+	max-width: 640px;
+}
