@@ -1,238 +1,288 @@
 /* By THANHTRUNG UIT */
 /* mrthat1996@gmail.com */
-body
-{
-	font-family: Tahoma,Calibri,Verdana,Geneva,sans-serif;
-	margin:0;
-	background: rgb(204, 204, 204);
+body {
+    font-family: Tahoma, Calibri, Verdana, Geneva, sans-serif;
+    margin: 0;
+    background: rgb(204, 204, 204);
 }
-#wrapper
-{
-	margin-left: auto;
-	margin-right: auto;
+
+#wrapper {
+    margin-left: auto;
+    margin-right: auto;
 }
-#header
-{
-	height: 397px;
-	background:url(img/bg.jpg) center;
-	box-shadow: 0 0 10px 1px;
+
+#header {
+    height: 397px;
+    background: url(img/bg.jpg) center;
+    box-shadow: 0 0 10px 1px;
 }
-#logo-wrapper
-{
-	background:url(img/bg2.jpg);
-	width: 1000px;
-	height: 397px;
-	margin-left: auto;
-	margin-right: auto;
-	position:relative;
+
+#logo-wrapper {
+    background: url(img/bg2.jpg);
+    width: 1000px;
+    height: 397px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
 }
-.logo
-{
-	background: url(img/logo.png) no-repeat;
-	position: absolute;
-	width: 290px;
-	height: 374px;
-	right: 167px;
-	margin-top: 15px;
-	-webkit-transition: all 0.3s ease-out;
-	-moz-transition: all 0.3s ease-out;
-	-o-transition: all 0.3s ease-out;
-	transition: all 0.3s ease-out;
-	}
-.logo:hover
-{
-	background: url(img/logo2.png) no-repeat;
-	position: absolute;
-	width: 290px;
-	height: 374px;
-	right: 167px;
-	margin-top: 15px;
-	-webkit-transition: all 0.3s ease-out;
-	-moz-transition: all 0.3s ease-out;
-	-o-transition: all 0.3s ease-out;
-	transition: all 0.3s ease-out;
+
+.logo {
+    background: url(img/logo.png) no-repeat;
+    position: absolute;
+    width: 290px;
+    height: 374px;
+    right: 167px;
+    margin-top: 15px;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
 }
-#nav
-{
-	width: 550px;
-	position: absolute;
-	left: 0px;
-	bottom: 35px;
+
+.logo:hover {
+    background: url(img/logo2.png) no-repeat;
+    position: absolute;
+    width: 290px;
+    height: 374px;
+    right: 167px;
+    margin-top: 15px;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
 }
-.thanhtrunguit-nav
-{
-	height: 30px;
-	position: relative;
-	z-index: 999;
-	background: rgba(255,255,255,0.6);
-	box-shadow: 0 0 20px rgba(0,0,0,.3);
-	font-size: 0;
-	line-height: 0;
-	text-align: right;
+
+#nav {
+    width: 550px;
+    position: absolute;
+    left: 0px;
+    bottom: 35px;
 }
-.thanhtrunguit-nav li
-{
-	position: relative;
-	display: inline-block;
-	float: left;
-	
-	border-style: solid;
-	border-color: rgba(0,0,0,.1);
-	border-width: 1px 1px 1px;
-	font-size: 15px;
-	line-height: 26px;
-	text-align: center;
-	white-space: nowrap;
-	font-weight: 500;
+
+.thanhtrunguit-nav {
+    height: 30px;
+    position: relative;
+    z-index: 999;
+    background: rgba(255, 255, 255, 0.6);
+    box-shadow: 0 0 20px rgba(0, 0, 0, .3);
+    font-size: 0;
+    line-height: 0;
+    text-align: right;
 }
-.thanhtrunguit-nav li a
-{
-	display: block;
-	padding: 1px 10px 1px 10px;
-	text-decoration: none;
-	color: #000;
-	transition: background 0.4s,color 0.4s;
-	-o-transition: background 0.4s,color 0.4s;
-	-ms-transition: background 0.4s,color 0.4s;
-	-moz-transition: background 0.4s,color 0.4s;
-	-webkit-transition: background 0.4s,color 0.4s;
+
+.thanhtrunguit-nav li {
+    position: relative;
+    display: inline-block;
+    float: left;
+
+    border-style: solid;
+    border-color: rgba(0, 0, 0, .1);
+    border-width: 1px 1px 1px;
+    font-size: 15px;
+    line-height: 26px;
+    text-align: center;
+    white-space: nowrap;
+    font-weight: 500;
 }
-.thanhtrunguit-nav li a:hover
-{
-	display: block;
-	padding: 1px 10px 1px 10px;
-	text-decoration: none;
-	color:#FFF;
-	background:#09F;
-	transition: background 0.4s,color 0.4s;
-	-o-transition: background 0.4s,color 0.4s;
-	-ms-transition: background 0.4s,color 0.4s;
-	-moz-transition: background 0.4s,color 0.4s;
-	-webkit-transition: background 0.4s,color 0.4s;
+
+.thanhtrunguit-nav li a {
+    display: block;
+    padding: 1px 10px 1px 10px;
+    text-decoration: none;
+    color: #000;
+    transition: background 0.4s, color 0.4s;
+    -o-transition: background 0.4s, color 0.4s;
+    -ms-transition: background 0.4s, color 0.4s;
+    -moz-transition: background 0.4s, color 0.4s;
+    -webkit-transition: background 0.4s, color 0.4s;
 }
-#wrapper
-{
-	width:1000px;
-	padding-top: 30px;
-        display: flex;
+
+.thanhtrunguit-nav li a:hover {
+    display: block;
+    padding: 1px 10px 1px 10px;
+    text-decoration: none;
+    color: #FFF;
+    background: #09F;
+    transition: background 0.4s, color 0.4s;
+    -o-transition: background 0.4s, color 0.4s;
+    -ms-transition: background 0.4s, color 0.4s;
+    -moz-transition: background 0.4s, color 0.4s;
+    -webkit-transition: background 0.4s, color 0.4s;
 }
-#contain
-{
-	float: left;
-	width: 685px;
-	background: rgb(231, 231, 231);
-	-webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 2px;
-	-moz-box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 2px;
-	box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 2px;
-	border: 1px solid #eee;
-	-webkit-border: 15px 15px 15px 15px;
-	padding: 7px 0px 7px 0px;
-	margin: 0 7px 7px 0;
+
+#wrapper {
+    width: 1000px;
+    padding-top: 30px;
+    display: flex;
 }
-.main-title
-{
-	border-radius: 2px;
-	border-bottom-style: solid;
-	border-bottom-width: 2px;
-	border-bottom-color: #C7C7C7;
-	padding: 5px 0 13px 24px;
-	font-size: 28px;
+
+#contain {
+    float: left;
+    width: 685px;
+    background: rgb(231, 231, 231);
+    -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 2px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 2px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 2px;
+    border: 1px solid #eee;
+    -webkit-border: 15px 15px 15px 15px;
+    padding: 7px 0px 7px 0px;
+    margin: 0 7px 7px 0;
 }
-.main-contain
-{
-	padding: 15px;
-	line-height: 28px;
+
+.main-title {
+    border-radius: 2px;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: #C7C7C7;
+    padding: 5px 0 13px 24px;
+    font-size: 28px;
 }
-#s-left
-{
-	text-align: center;
-	float: right;
-	width: 300px;
+
+.main-contain {
+    padding: 15px;
+    line-height: 28px;
 }
-.sidebar
-{
-	background: rgb(231, 231, 231);
-	-webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 2px;
-	-moz-box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 2px;
-	box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 2px;
-	border: 1px solid #eee;
-	-webkit-border: 15px 15px 15px 15px;
-	padding: 7px 0px 7px 0px;
-	margin: 0 0 7px 0;
+
+#s-left {
+    text-align: center;
+    float: right;
+    width: 300px;
 }
-.s-title
-{
-	border-radius: 2px;
-	border-bottom-style: solid;
-	border-bottom-width: 2px;
-	border-bottom-color: #C7C7C7;
-	padding: 0px 0 7px 0;
-	font-size: 28px;
+
+.sidebar {
+    background: rgb(231, 231, 231);
+    -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 2px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 2px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 2px;
+    border: 1px solid #eee;
+    -webkit-border: 15px 15px 15px 15px;
+    padding: 7px 0px 7px 0px;
+    margin: 0 0 7px 0;
 }
-.s-contain
-{
+
+.s-title {
+    border-radius: 2px;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: #C7C7C7;
+    padding: 0px 0 7px 0;
+    font-size: 28px;
 }
-#footer
-{
-	height: 210px;
+
+.s-contain {
 }
-.lazy
-{
-	background: #930;
-	margin-top: 150px;
-	height: 118px;
-	align-items: center;
-	position: relative;
+
+#footer {
+    height: 210px;
 }
-#footer-wrapper
-{
-	width: 1000px;
-	margin-left: auto;
-	margin-right: auto;
+
+.lazy {
+    background: #930;
+    margin-top: 150px;
+    height: 118px;
+    align-items: center;
+    position: relative;
 }
-.footer-l
-{
-	height: 300px;
-	background: url(img/lazy-reimu.png) no-repeat;
-	position: absolute;
-	width: 212px;
-	margin-top: -90px;
+
+#footer-wrapper {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
 }
-.footer-r
-{
-	height: 118px;
-	margin-top: 1px;
-	padding-left: 282px;
-	padding-top: 14px;
-	color: #ddd;
-	line-height: 30px;
+
+.footer-l {
+    height: 300px;
+    background: url(img/lazy-reimu.png) no-repeat;
+    position: absolute;
+    width: 212px;
+    margin-top: -90px;
 }
-p
-{
-	margin-left: 60px;
-    	line-height: 1.5em;
+
+.footer-r {
+    height: 118px;
+    margin-top: 1px;
+    padding-left: 282px;
+    padding-top: 14px;
+    color: #ddd;
+    line-height: 30px;
 }
-p.hd
-{
-    	margin-left: 10px;
-    	padding-left: 50px;
-    	background: url(img/star.png) no-repeat 0;
-    	background-size: 40px;
-    	color: #ca7010;
-    	font-size: 20px;
-    	line-height: 2em;
-}	
-img{
-	max-width: 640px;
+
+p {
+    margin-left: 60px;
+    line-height: 1.5em;
 }
-h.h-title
-{
-	padding-left: 50px;
-    	padding-top: 20px;
-    	padding-bottom: 20px;
-    	background: url(img/title.png) no-repeat 0;
-    	background-size: 40px;
-    	color: #ca7010;
-    	line-height: 2em;
-    	font-size: 25px;
+
+p.hd {
+    margin-left: 10px;
+    padding-left: 50px;
+    background: url(img/star.png) no-repeat 0;
+    background-size: 40px;
+    color: #ca7010;
+    font-size: 20px;
+    line-height: 2em;
+}
+
+img {
+    max-width: 640px;
+}
+
+h.h-title {
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: url(img/title.png) no-repeat 0;
+    background-size: 40px;
+    color: #ca7010;
+    line-height: 2em;
+    font-size: 25px;
+}
+
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+.tabcontent {
+    animation: fadeEffect 1s; /* Fading effect takes 1 second */
+}
+
+/* Go from zero to full opacity */
+@keyframes fadeEffect {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
